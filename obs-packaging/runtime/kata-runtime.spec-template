@@ -96,6 +96,7 @@ sed -i -e '/^initrd =/d' %{buildroot}/usr/share/defaults/kata-containers/configu
 %files
 %defattr(-,root,root,-)
 /usr/bin/kata-runtime
+/usr/bin/kata-netmon
 /usr/bin/kata-collect-data.sh
 /usr/share/defaults/
 /usr/share/defaults/kata-containers/
